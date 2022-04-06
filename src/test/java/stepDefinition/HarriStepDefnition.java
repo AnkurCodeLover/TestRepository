@@ -10,7 +10,7 @@ import pageObjects.HarriDashboard;
 import pageObjects.HarriDevLoginPage;
 import pageObjects.HarriTeamPage;
 
-public class TestStepDefnition {
+public class HarriStepDefnition {
 	public static WebDriver driver = Hooks.driver;
 
 	@Given("^User login to the page using username \"([^\"]*)\" and pwd \"([^\"]*)\"$")
